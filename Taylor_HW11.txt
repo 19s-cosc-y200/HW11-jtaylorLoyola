@@ -1,0 +1,31 @@
+<!-- Project Name: Hands-On Exercise 3.1-3.4 -->
+<!-- Author: Joshua Taylor -->
+<!-- Date Last Modified: 4/1/19-->
+
+Inline:
+<p style="background-color: green; color:white;">
+
+Embedded:
+<style>
+body{
+  color:white;
+}
+</style>
+
+External style sheet:
+body{
+  color:brown;
+  font-size:1.2em;
+  font:Arial;
+}
+
+
+HTML and CSS class
+.new{
+  font-weight:bold;
+  font-style:italic;
+}
+
+<p class="new">
+  Bold and Italic css.
+ </p>
