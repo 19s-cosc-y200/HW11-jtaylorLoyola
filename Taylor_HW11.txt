@@ -5,12 +5,17 @@
 Inline:
 <p style="background-color: green; color:white;">
 
+should be in hex
+
 Embedded:
 <style>
 body{
   color:white;
 }
 </style>
+
+should be in hex
+missing background-color
 
 External style sheet:
 body{
@@ -19,12 +24,17 @@ body{
   font:Arial;
 }
 
+should be in hex
+missing font list
+
 
 HTML and CSS class
 .new{
   font-weight:bold;
   font-style:italic;
 }
+
+missing style tag
 
 <p class="new">
   Bold and Italic css.
